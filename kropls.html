@@ -12,8 +12,84 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/slider.css" rel="stylesheet" type="text/css" media="all">
+ <link rel="stylesheet" href="css/baguetteBox.css">
+
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/slidermodernizr.custom.js"></script>
+<script src="js/baguetteBox.js" async></script>
+<script src="js/highlight.min.js" async></script>
+<style>
+
+a, a:visited {
+    color: #9EB4CA;;
+    text-decoration: none;
+}
+
+h1, h2, h3, footer, .gallery {
+    text-align: center;
+}
+
+pre {
+    width: 340px;
+    margin: 0 auto;
+    border: dashed 1px #aaa;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    pre {
+        max-width: 98%;
+    }
+}
+
+
+
+
+.content {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.gallery:after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .5em 0 1.4em;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gallery img {
+    height: 100%;
+}
+
+.gallery a {
+    width: 240px;
+    height: 180px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 6px;
+    box-shadow: 0 0 4px -1px #000;
+}
+
+.ribbon > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .sm-hidden {
+        display: none;
+    }
+}
+
+/* Highlight.js Tomorrow Night style */
+.hljs-comment,.hljs-quote{color:#969896}.hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable{color:#c66}.hljs-tag {color: #f8f8f2}.hljs-built_in,.hljs-builtin-name,.hljs-link,.hljs-literal,.hljs-meta,.hljs-number,.hljs-params,.hljs-type{color:#de935f}.hljs-attr{color:#f0c674}.hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol{color:#b5bd68}.hljs-section,.hljs-title{color:#81a2be}.hljs-keyword,.hljs-selector-tag{color:#b294bb}.hljs{display:block;overflow-x:auto;background:#1d1f21;color:#c5c8c6;padding:.8em}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+    </style>
+
+
 </head>
  <body>
    <!------ Background slider ---->
@@ -59,61 +135,59 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	        		<div class="events">
 	        			<h2>KroplsBierhaus</h2>
 	        			<div class="section group">
-							<div class="grid_1_of_3 events_1_of_3">
-							  <div class="event-time">
-								<h4><span>sed quia non numqua</span></h4>
-								  <h4>Sep 20Th, 2013</h4>
-							  </div>
-							     <div class="event-img">
-								    <a href="blog.html"><img src="images/event-img1.jpg" alt="" /><span>Read More</span></a>
-							   </div>
-							</div>
-							<div class="grid_1_of_3 events_1_of_3">
-								<div class="event-time">
-								<h4><span>Sed ut perspiciatis</span></h4>
-								  <h4>Sep 14TH, 2013</h4>
-							  </div>
-								<div class="event-img">
-								    <a href="blog.html"><img src="images/event-img2.jpg" alt="" /><span>Read More</span></a>
-							   </div>
-							</div>
-							<div class="grid_1_of_3 events_1_of_3">
-								<div class="event-time">
-								<h4><span> vel illum qui dolorem</span></h4>
-								  <h4>Sep 5TH, 2013</h4>
-							  </div>
-								<div class="event-img">
-								    <a href="blog.html"><img src="images/event-img3.jpg" alt="" /><span>Read More</span></a>
-							   </div>
-							</div>
+	        			    <div class="content">
+    
+
+    
+
+    <div class="baguetteBoxOne gallery">
+        <a href="images/1-1.jpg" data-caption="Rafael ">
+            <img src="images/thumbs/1-1.jpg" alt="Rafael">
+        </a>
+        <a href="images/1-2.jpg" title="Midnight City">
+            <img src="images/thumbs/1-2.jpg" alt="Midnight City">
+        </a>
+        <a href="images/1-3.jpg">
+            <img src="images/thumbs/1-3.jpg" alt="">
+        </a>
+        <a href="images/1-4.jpg">
+            <img src="images/thumbs/1-4.jpg" alt="">
+        </a>
+        <a href="images/1-5.jpg">
+            <img src="images/thumbs/1-5.jpg" alt="">
+        </a>
+        <a href="images/1-6.jpg">
+            <img src="images/thumbs/1-6.jpg" alt="">
+        </a>
+        <a href="images/1-7.jpg">
+            <img src="images/thumbs/1-7.jpg" alt="">
+        </a>
+        <a href="images/1-8.jpg">
+            <img src="images/thumbs/1-8.jpg" alt="">
+        </a>
+    </div>
+
+    
+
+</div>
+							
 					   </div>
 					   <div class="section group">
-							<div class="grid_1_of_3 events_1_of_3">
-							  <div class="event-time">
-								<h4><span>sed quia non numqua</span></h4>
-								  <h4>Sep 20Th, 2013</h4>
-							  </div>
-								<div class="event-img">
-								    <a href="blog.html"><img src="images/event-img4.jpg" alt="" /><span>Read More</span></a>
-							   </div>
-							</div>
-							<div class="grid_1_of_3 events_1_of_3">
-								<div class="event-time">
-								<h4><span>Sed ut perspiciatis</span></h4>
-								  <h4>Sep 14TH, 2013</h4>
-							  </div>
-								<div class="event-img">
-								    <a href="blog.html"><img src="images/event-img5.jpg" alt="" /><span>Read More</span></a>
-							   </div>
-							</div>
-							<div class="grid_1_of_3 events_1_of_3">
-								<div class="event-time">
-								<h4><span> vel illum qui dolorem</span></h4>
-								  <h4>Sep 5TH, 2013</h4>
-							  </div>
-								<div class="event-img">
-								    <a href="blog.html"><img src="images/event-img6.jpg" alt="" /><span>Read More</span></a>
-							   </div>
+							
+	    	           <h2>Historia</h2>
+	    					<div class="blog-leftgrids">
+								<div class="image group">
+										<div class="grid blog-desc">
+												<h4><span>Kropls, el sabor de la cerveza hecha en casa</span></h4>
+												  <h4>Julio 14, 2017,&nbsp;&nbsp; Posted by <a href="#" class="post">Rafael</a></h4>
+											<p>Hace unos 20 años, el emprendedor boliviano Rafael Arze Ferrufino aprendió el arte y la técnica de hacer cerveza por parte de un amigo de Estados Unidos, quien le mostró cómo lograr esta bebida a gusto del cliente, y todo hecho en casa, y aunque durante todo este tiempo fue trabajando el elíxir para consumo familiar, hace cinco años inauguró su propia empresa de cerveza artesanal en Bolivia: Kropls Bierhaus.<span>Kropls (aunque suene alemán) es una sigla con las iniciales de los miembros de su familia) Bierhaus significa cervecería y el sabor es el resultado de sus 20 años de experiencia, asesoramiento de profesionales y consulta bibliográfica, hasta lograr un producto distinto.</p>
+											<p>"Nuestras cervezas no son para farras, sino para degustar y compartir. No son filtradas o pasteurizadas. No se les pone mucho gas y tampoco se les baja mucho la temperatura, justamente para permitir saborear”<h2>Ingredientes</h2>
+											<p><span>Las Kropls tienen 5 por ciento de alcohol, mientras que las tradicionales de fábricas grandes tienen 4,5, justamente porque tienen más gas, pero menos sabor.<span> Los cuatro ingredientes principales de Kropls son malta cebada, lúpulo, levadura y agua. “No utilizamos ningún aditivo químico ni artificial”</span></p><p>La cebada se la provee de Sucre; los lúpulos, de Argentina y Estados Unidos, y la levadura de Australia. El trabajo comienza con el tostado y molido casero de la cebada. Para ello utiliza tanques de acero inoxidable. Posteriormente, la malta se hace hervir en diferentes temperaturas y tiempos para extraerle los azúcares. Se deja el grano a un lado y se hace hervir el mosto. Allí se le añade el lúpulo, una flor que tiene un aceite agrio, que al final será la que dé el aroma y sabor característicos de la cerveza.</p><p>El jugo dulce logrado con el lúpulo se pone a enfriar y se lo coloca en otro fermentador y allí se le añade la levadura para dejarla reposar por unos siete a 10 días. La función de la levadura es producir alcohol, gas carbónico y cerveza.
+
+Pasado este tiempo se la pone a madurar para lograr el producto final. Si se quiere una cerveza inglesa clara (Ale), todo el proceso tomará unos 14 días. Para el sabor alemán, se necesitan entre 21 y 28 días, por lo que todo el proceso puede demandar al menos un mes. Bastante trabajo.</p>
+											  
+									   </div>
+		  						 </div>		  						 
 							</div>
 					   </div>					   
 	        		</div>
@@ -124,6 +198,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  <p>kroplsbierhaus © All rights Reseverd | Design by  <a href="#"> W3Layouts </a></p>
 		       </div>
 		   </div>
+		   <script>
+window.onload = function() {
+    baguetteBox.run('.baguetteBoxOne');
+    baguetteBox.run('.baguetteBoxTwo');
+    baguetteBox.run('.baguetteBoxThree', {
+        animation: 'fadeIn',
+        noScrollbars: true
+    });
+    baguetteBox.run('.baguetteBoxFour', {
+        buttons: false
+    });
+    baguetteBox.run('.baguetteBoxFive', {
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+        }
+    });
+
+    if (typeof oldIE === 'undefined' && Object.keys) {
+        hljs.initHighlighting();
+    }
+};
+</script>
       </body>
  </html>
 
